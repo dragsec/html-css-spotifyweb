@@ -17,6 +17,9 @@
     border: 1px solid;
     border-radius: 20px;
     width: max-content;
+    float: right;
+    margin: 20px;
+
 }
 .clearfix:after {
     content: "";
@@ -44,22 +47,20 @@
 /* mainpage */
 .maincontainer{
     background-color: #141921;
+    width: calc(100%);
 }
 
 /* effettua upgrade */
 .upgrade{
     background-color: rgb(0, 0, 0, 0.5);
     height: 80px;
-    z-index: 1;/* 
-    position: fixed;
-    top: 0;
-    right: 0; */
+    z-index: 1;
 }
 
 /* main */
 .mainmusic{
-    /* overflow-y: scroll; */
     height: 100%;
+    /* overflow-y: scroll; */
 }
 
 /* ------------------------------------------- */
