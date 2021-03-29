@@ -17,6 +17,10 @@
     display: flex;
     align-items: center;
 }
+.flexcenter1{
+    display: flex;
+    justify-content: center;
+}
 
 /* varie */
 .btnupgrade{
@@ -48,6 +52,9 @@
 
 .size12{
     font-size: 12px;
+}
+.size10{
+    font-size: 10px;
 }
 
 /* ------------------------------------------- */
@@ -126,6 +133,24 @@ footer{
 .lilpad{
     padding: 0 10px;
 }
+.lilpad1{
+    padding: 0 20px;
+}
 .inline-block1 > p {
     margin: 1px;
+}
+.bar1{
+    width: 20px;
+}
+.bar2{
+    width: 80px;
+}
+.bar1, .bar2, .barmain1, .barmain2{
+    border: 1px solid;
+}
+.barmain1{
+    width: 80px;
+}
+.barmain2{
+    width: 250px;
 }
