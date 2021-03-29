@@ -21,19 +21,9 @@
 .flexcenter1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-
 /* varie */
-.btnupgrade{
-    color: white;
-    padding: 10px 30px;
-    border: 1px solid;
-    border-radius: 20px;
-    width: max-content;
-    float: right;
-    margin-top: 18px;
-    margin-right: 15px;
-}
 .clearfix:after {
     content: "";
     display: table;
@@ -105,22 +95,31 @@
 /* mainpage */
 .maincontainer{
     background-color: #141921;
-    width: 100%;
 }
 
 /* effettua upgrade */
 .upgrade{
     background-color: rgb(0, 0, 0, 0.5);
-    height: 80px;
     position: fixed;
-    width: calc(100% - 215px);
+    width: calc(100vw - 210px);
 }
+.btnupgrade{
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: max-content;
+    margin: 25px 15px;
+    float: right;
+}
+
+
 
 /* main */
 .mainmusic{
     height: 100%;
     /* overflow-y: scroll;  */
-    padding: 80px 15px 40px 15px;
+    padding: 80px 15px 80px 15px;
 }
 .bolder1 > div > p, .mainmusic > div > p{
     font-weight: bolder;
@@ -141,14 +140,38 @@
     left: 37px;
 }
 .pad20{
-    padding: 20px 0;
+    padding-top: 20px;
+}
+.margin20{
+    margin-top: 20px;
 }
 .imgcopertina{
-
+    margin-bottom: 15px;
+    position: relative;
 }
 .copertinatonda{
     border-radius: 50%;
 }
+.marginauto, .mga > div > p{
+    display: flex;
+    justify-content: center;
+}
+.hoverplay, .hoverplay2{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.hoverplay2{
+    border-radius: 50%;
+}
+
 /* ------------------------------------------- */
 
 /* footer */
@@ -193,8 +216,8 @@ footer{
     position: absolute;
 }
 .barmain1{
-    width: 330px;
+    width: 250px;
 }
 .barmain2{
-    width: 80px;
+    width: 60px;
 }
