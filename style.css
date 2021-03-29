@@ -69,7 +69,7 @@
 .blackbar1{
     width: 225px;
     background-color: black;
-    height: calc(100vh - 80px);
+    height: (100vh - 80px);
     position: relative;
 }
 .logo1{
@@ -95,8 +95,8 @@
     border-bottom: 1px solid;
 }
 .flexbot{
-    position: absolute;
-    bottom: 0; 
+    position: fixed;
+    bottom: 80px; 
 }
 
 
@@ -119,7 +119,7 @@
 /* main */
 .mainmusic{
     height: 100%;
-    overflow-y: scroll; 
+    /* overflow-y: scroll;  */
     padding: 80px 15px 40px 15px;
 }
 .bolder1 > div > p, .mainmusic > div > p{
