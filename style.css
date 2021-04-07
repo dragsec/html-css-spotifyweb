@@ -65,6 +65,8 @@ body{
     overflow: auto;
     position:relative;
     height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
 }
 .logo1{
     width: 150px;
@@ -89,8 +91,11 @@ body{
     border-bottom: 1px solid;
 }
 .flexbot{
+    justify-content: flex-end;
 }
-
+.fill1 {
+    flex-grow: 1; 
+}
 
 /* ------------------------------------------- */
 
