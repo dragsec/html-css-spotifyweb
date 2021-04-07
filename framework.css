@@ -1,18 +1,22 @@
 /* hover */
 .whitehover:hover{
     color: white;
+    cursor: pointer;
 }
 .zoom:hover{
     transform: scale(1.5);
 }
 .zoom_min:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 .imgcopertina:hover .hoverplay{
     visibility: visible;
+    cursor: pointer;
 }
 .imgcopertina:hover .hoverplay2{
     visibility: visible;
+    cursor: pointer;
 }
 
 /* risoluzioni */
@@ -25,9 +29,6 @@
     }
     .logo1{
         margin: 20px 10px;
-    }
-    .upgrade{
-        width: calc(100vw - 50px);
     }
     .borderbot1{
         border-bottom: 0px;
