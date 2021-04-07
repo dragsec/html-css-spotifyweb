@@ -64,6 +64,7 @@ body{
     background-color: black;
     overflow: auto;
     position:relative;
+    height: calc(100vh - 80px);
 }
 .logo1{
     width: 150px;
@@ -97,8 +98,9 @@ body{
 .maincontainer{
     background-color: #141921;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 80px);
     position: relative;
+    overflow: auto;
 }
 
 /* effettua upgrade */
@@ -123,8 +125,8 @@ body{
 
 /* main */
 .mainmusic{
-    height: 100%;
     padding: 10px 15px 10px 15px;
+    width: 100%;
 }
 .bolder1 > div > p, .mainmusic > div > p{
     font-weight: bolder;
