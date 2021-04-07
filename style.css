@@ -7,6 +7,9 @@
     font-size: 14px;
     color: #7D7F84;
 }
+body{
+    position: absolute;
+}
 .maino{
    display: flex;
    flex-direction: row;
@@ -59,8 +62,8 @@
 .blackbar1{
     width: 225px;
     background-color: black;
-    position: relative;
     overflow: auto;
+    position:relative;
 }
 .logo1{
     width: 150px;
@@ -85,8 +88,6 @@
     border-bottom: 1px solid;
 }
 .flexbot{
-    position: fixed;
-    bottom: 80px; 
 }
 
 
@@ -123,7 +124,6 @@
 /* main */
 .mainmusic{
     height: 100%;
-    /* overflow-y: auto;   */
     padding: 10px 15px 10px 15px;
 }
 .bolder1 > div > p, .mainmusic > div > p{
